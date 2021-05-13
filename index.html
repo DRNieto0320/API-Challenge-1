@@ -1,244 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-        <link rel="stylesheet" href="./styles.css">
-        <title>API Challenge1</title>
-    </head>
-    <body id="top">
-        <!-- As a heading -->
-        <nav class="navbar navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-                <span class="navbar-brand mb-1 h1">Studio Ghibli Films</span>
-            </div>
-        </nav>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="16" aria-label="Slide 17"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="17" aria-label="Slide 18"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="18" aria-label="Slide 19"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="19" aria-label="Slide 20"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="20" aria-label="Slide 21"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg/revision/latest/scale-to-width-down/150?cb=20181106050528" class="d-block w-100" alt="film1">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/a/a5/Grave_of_the_Fireflies_Japanese_poster.jpg/revision/latest/scale-to-width-down/150?cb=20210319080723" class="d-block w-100" alt="film2">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbor_Totoro.jpg/revision/latest/scale-to-width-down/150?cb=20181106050026" class="d-block w-100" alt="film3">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/4/48/Kiki%27s_Delivery_Service_%282%29.jpg/revision/latest/scale-to-width-down/150?cb=20181106053757" class="d-block w-100" alt="film4">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/a/a9/Only_Yesterday.jpg/revision/latest/scale-to-width-down/150?cb=20181106035648" class="d-block w-100" alt="film5">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/f/fc/Porco_Rosso_%28Movie_Poster%29.jpg/revision/latest/scale-to-width-down/150?cb=20180820185143" class="d-block w-100" alt="film6">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/9/9e/Pom_Poko.jpg/revision/latest/scale-to-width-down/150?cb=20181106033231" class="d-block w-100" alt="film7">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/7/7b/Whisper_of_the_Heart.jpg/revision/latest/scale-to-width-down/150?cb=20181106032801" class="d-block w-100" alt="film8">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/c/c6/Princess_Mononoke.jpg/revision/latest/scale-to-width-down/150?cb=20181106091921" class="d-block w-100" alt="film9">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbors_the_Yamadas.jpg/revision/latest/scale-to-width-down/150?cb=20210223093817" class="d-block w-100" alt="film10">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/9/9e/Spirited_Away.png/revision/latest/scale-to-width-down/150?cb=20181106031106" class="d-block w-100" alt="film11">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/8/87/The_Cat_Returns.jpg/revision/latest/scale-to-width-down/150?cb=20181106030602" class="d-block w-100" alt="film12">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg/revision/latest/scale-to-width-down/150?cb=20210323005531" class="d-block w-100" alt="film13">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/0/09/%C3%96v%C3%A4rlden.jpg/revision/latest/scale-to-width-down/150?cb=20181106025928" class="d-block w-100" alt="film14">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/5/50/Ponyo_on_the_Cliff_by_the_Sea.jpg/revision/latest/scale-to-width-down/150?cb=20181106075601" class="d-block w-100" alt="film15">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/4/46/The_Borrower_Arrietty.jpg/revision/latest/scale-to-width-down/150?cb=20181106025101" class="d-block w-100" alt="film16">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/b/bb/From_Up_on_Poppy_Hill.jpg/revision/latest/scale-to-width-down/150?cb=20200318180952" class="d-block w-100" alt="film17">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/2/2d/The_Wind_Rises.jpg/revision/latest/scale-to-width-down/150?cb=20181106053213" class="d-block w-100" alt="film18">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/8/87/The_Tale_of_the_Princess_Kaguya.jpg/revision/latest/scale-to-width-down/150?cb=20181106025237" class="d-block w-100" alt="film19">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/7/7a/When_Marnie_Was_There.jpg/revision/latest/scale-to-width-down/150?cb=20181107030008" class="d-block w-100" alt="film20">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://static.wikia.nocookie.net/studio-ghibli/images/f/fe/The_Red_Turtle.png/revision/latest/scale-to-width-down/150?cb=20180820212016" class="d-block w-100" alt="film21">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 id=""></h1>
-                  <p id="">
-
-                  </p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>    
-        <script src="./scripts.js"></script>   
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="./styles.css">
+    <title>API Challenge #1</title>
+  </head>
+  <body>
+    <!-- Navbar as a heading -->
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-10 h1">Studio Ghibli Films</span>
+      </div>
+    </nav>
+    <!-- Carousel with controls/indicators/captions -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="11" aria-label="Slide 12"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="12" aria-label="Slide 13"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="13" aria-label="Slide 14"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="14" aria-label="Slide 15"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="15" aria-label="Slide 16"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="16" aria-label="Slide 17"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="17" aria-label="Slide 18"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="18" aria-label="Slide 19"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="19" aria-label="Slide 20"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="20" aria-label="Slide 21"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/castle-in-the-sky.jpg" class="d-block w-100" alt="film1">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title1"></h1>
+            <p id="data1"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/grave-of-the-fireflies.jpg" class="d-block w-100" alt="film2">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title2"></h1>
+            <p id="data2"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/my-neighbor-totoro.jpg" class="d-block w-100" alt="film3">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title3"></h1>
+            <p id="data3"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/kikis-delivery-service.jpg" class="d-block w-100" alt="film4">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title4"></h1>
+            <p id="data4"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/only-yesterday.jpg" class="d-block w-100" alt="film5">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title5"></h1>
+            <p id="data5"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/porco-rosso.jpg" class="d-block w-100" alt="film6">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title6"></h1>
+            <p id="data6"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pom-poko.jpg" class="d-block w-100" alt="film7">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title7"></h1>
+            <p id="data7"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/whisper-of-the-heart.jpg" class="d-block w-100" alt="film8">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title8"></h1>
+            <p id="data8"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/princess-monoke.jpg" class="d-block w-100" alt="film9">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title9"></h1>
+            <p id="data9"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/my-neighbors-the-yamadas.jpg" class="d-block w-100" alt="film10">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title10"></h1>
+            <p id="data10"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/spirited-away.jpg" class="d-block w-100" alt="film11">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title11"></h1>
+            <p id="data11"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/the-cat-returns.jpg" class="d-block w-100" alt="film12">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title12"></h1>
+            <p id="data12"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/howls-moving-castle.jpg" class="d-block w-100" alt="film13">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title13"></h1>
+            <p id="data13"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/tales-from-earthsea.jpg" class="d-block w-100" alt="film14">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title14"></h1>
+            <p id="data14"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/ponyo-on-the-cliff-by-the-sea.jpg" class="d-block w-100" alt="film15">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title15"></h1>
+            <p id="data15"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/the-secret-world-of-arrietty-md-web.jpg" class="d-block w-100" alt="film16">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title16"></h1>
+            <p id="data16"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/from-up-on-poppy-hill.jpg" class="d-block w-100" alt="film17">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title17"></h1>
+            <p id="data17"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/the-wind-rises.jpg" class="d-block w-100" alt="film18">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title18"></h1>
+            <p id="data18"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/the-tale-of-the-princess-kaguya.jpg" class="d-block w-100" alt="film19">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title19"></h1>
+            <p id="data19"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/when-marnie-was-there.jpg" class="d-block w-100" alt="film20">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title20"></h1>
+            <p id="data20"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/the-red-turtle.jpg" class="d-block w-100" alt="film21">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="title21"></h1>
+            <p id="data21"></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
